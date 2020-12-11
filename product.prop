@@ -3,7 +3,7 @@ persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,org
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
 
 # Graphics
-debug.sf.hw=1
+debug.sf.hw=0
 debug.gralloc.enable_fb_ubwc=1
 
 # USAP
