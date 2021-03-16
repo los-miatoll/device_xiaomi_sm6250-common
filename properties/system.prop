@@ -30,9 +30,6 @@ dalvik.vm.dexopt.secondary=true
 # Disable MTE Async for system server
 arm64.memtag.process.system_server=off
 
-# DPM
-persist.vendor.dpm.feature=11
-
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
