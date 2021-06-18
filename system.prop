@@ -104,6 +104,11 @@ telephony.lteOnCdmaDevice=1
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
 
+# VSync
+debug.cpurend.vsync=false
+persist.hwc.enable_vds=1
+persist.demo.hdmirotationlock=false
+
 # WFD
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
