@@ -1140,3 +1140,6 @@ on late-init
     start vendor.hwcomposer-2-4
     start vendor.configstore-hal
     start vendor.qti.hardware.display.allocator
+
+# Enable UFS powersaving
+    write /sys/devices/platform/soc/${ro.boot.bootdevice}/clkgate_enable 1    
