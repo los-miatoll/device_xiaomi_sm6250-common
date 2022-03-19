@@ -32,6 +32,11 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # API
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+# ART optimization
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+USE_DEX2OAT_DEBUG := false
+
 # Audio
 PRODUCT_PACKAGES += \
     libvolumelistener
@@ -114,11 +119,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml \
 
-# Dex/ART optimization
-PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+# Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
-PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
-USE_DEX2OAT_DEBUG := false
 
 # Display
 PRODUCT_PACKAGES += \
