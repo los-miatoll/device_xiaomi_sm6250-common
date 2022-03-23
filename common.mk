@@ -47,6 +47,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     BluetoothQti
 
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.vendor.bluetooth.modem_nv_support=true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
