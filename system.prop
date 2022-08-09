@@ -78,9 +78,6 @@ media.stagefright.enable-scan=true
 media.stagefright.thumbnail.prefer_hw_codecs=true
 vendor.mm.enable.qcom_parser=131071983
 
-# Netflix
-ro.netflix.bsp_rev=Q6250-19132-1
-
 # Perf
 ro.vendor.qti.sys.fw.bservice_enable=true
 
