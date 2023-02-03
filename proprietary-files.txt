@@ -655,7 +655,6 @@ vendor/etc/mixer_paths.xml
 vendor/etc/mixer_paths_qrd.xml
 vendor/etc/mixer_paths_wcd937x.xml
 vendor/etc/mixer_paths_wcd937xqrd.xml
-vendor/etc/msm_irqbalance.conf
 vendor/etc/permissions/android.hardware.audio.low_latency.xml
 vendor/etc/permissions/android.hardware.audio.pro.xml
 vendor/etc/permissions/android.hardware.bluetooth.xml
