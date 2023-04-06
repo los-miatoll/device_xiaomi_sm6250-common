@@ -121,6 +121,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml \
 
+# Dex/ART optimization
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+USE_DEX2OAT_DEBUG := false
+
 # Display
 PRODUCT_PACKAGES += \
     disable_configstore \
