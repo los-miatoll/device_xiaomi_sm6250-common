@@ -21,6 +21,9 @@ persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-
 ro.miui.notch=1
 persist.vendor.camera.privapp.list=com.android.camera
 
+# Charger
+ro.charger.enable_suspend=true
+
 # CNE
 persist.vendor.cne.feature=1
 
