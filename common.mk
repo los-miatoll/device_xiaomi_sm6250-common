@@ -55,17 +55,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 RELAX_USES_LIBRARY_CHECK := true
 
-# Device Settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/parts/init.xiaomiparts.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.xiaomiparts.rc \
-    $(LOCAL_PATH)/parts/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-parts.xml
-
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.lcd.cabc_mode=1
-
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
@@ -170,10 +159,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor    
-
-# Doze
-PRODUCT_PACKAGES += \
-    XiaomiDoze
 
 # Fastbootd
 PRODUCT_PACKAGES += \
