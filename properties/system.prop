@@ -48,6 +48,12 @@ persist.sys.fuse.passthrough.enable=true
 #GBoard
 ro.com.google.ime.kb_pad_port_b=1
 
+# Havoc-OS
+ro.havoc.device.name=Xiaomi Redmi Note 9S/9 Pro/Pro Max/POCO M2 Pro
+ro.havoc.group.url=https://t.me/LOS_Miatoll
+ro.havoc.maintainer=Swapnil Vicky
+ro.havoc.maintainer.username=SwapnilVicky
+
 # HVDCP
 persist.vendor.cp.taper_term_mv=6500
 persist.vendor.cp.fcc_main_ua=400000
