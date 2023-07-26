@@ -134,6 +134,8 @@ dalvik.vm.dex2oat64.enabled=true
 
 # Display
 debug.sdm.support_writeback=0
+debug.sf.auto_latch_unsignaled=true
+debug.sf.disable_backpressure=1
 debug.sf.enable_transaction_tracing=false
 debug.sf.predict_hwc_composition_strategy=0
 debug.sf.treat_170m_as_sRGB=1
